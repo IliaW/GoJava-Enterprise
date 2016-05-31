@@ -5,7 +5,7 @@ import java.util.*;
 public class TestCollection {
 
     final private String TEXT = "(_I_)";
-    final private int NUMBER_OF_CHECKS = 1;
+    final private int NUMBER_OF_CHECKS = 100;
     final private int[] SIZE_OF_THE_ARRAY = {100, 1000, 10000};
     private Formatter formater;
 
