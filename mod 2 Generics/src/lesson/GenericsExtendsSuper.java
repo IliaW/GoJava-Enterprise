@@ -10,18 +10,13 @@ public class GenericsExtendsSuper {
 
     @Test
     public void testName() {
-        // после компиляции они будут одинаковы
+
         List<Integer> ints = Arrays.asList(10, 20, 30);
         List objects = Arrays.asList(10, 20, 30);
 
-        // проверка происходит при попытке вставить или извлечь
-        // компилятор в этом месте подставит CheckCast инструкцию, которая проверит вставляемое/возвращаемое значение
         ints.add(10);
         int i = ints.get(0);
 
-        // ограничения
-        // не работает instanceOf
-        // не работает overloading
     }
 
     @Test
@@ -44,7 +39,6 @@ public class GenericsExtendsSuper {
         return true;
     }
 
-    // типизированный метод
     public <T> List<T> filterInvalid(List<T> values, Validator<? super T> validator) {
         List<T> result = new ArrayList<T>();
         for (T value : values) {
