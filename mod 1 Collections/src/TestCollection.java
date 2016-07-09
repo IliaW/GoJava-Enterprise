@@ -52,7 +52,7 @@ public class TestCollection {
         }
     }
 
-    // Вывод результатов на экран
+    // Вывод результатов на экраны
     private void outputValuesOnTheScreenForList(long nanoTimeAdd, long nanoTimeGet, long nanoTimeRemove, long nanoTimeContains, long nanoTimePopulate, long nanoTimeListIteratorAdd, long nanoTimeListIteratorRemove) {
         formater.format("               %-15d %-15d %-15d %-15d %-15d %-20d %-20d%n", nanoTimeAdd, nanoTimeGet, nanoTimeRemove, nanoTimeContains, nanoTimePopulate, nanoTimeListIteratorAdd, nanoTimeListIteratorRemove);
     }
