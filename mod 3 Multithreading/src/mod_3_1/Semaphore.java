@@ -1,4 +1,4 @@
-// При помощи методов wait(), notify(), notifyAll() реализовать семафор:
+package mod_3_1;// При помощи методов wait(), notify(), notifyAll() реализовать семафор:
 
 public interface Semaphore {
 

@@ -1,3 +1,5 @@
+package mod_3_1;
+
 public class RealizSemaphore implements Semaphore {
 
     private final int MAX_PERMITS;
